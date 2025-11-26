@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Desconto</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Calculadora de Desconto</h1>
+
+  <label for="valor">Valor do Produto (R$):</label>
+  <input type="number" id="valor" placeholder="Digite o valor" step="0.01">
+
+  <br><br>
+
+  <label for="pagamento">Forma de Pagamento:</label>
+  <select id="pagamento">
+    <option value="avista">À vista (Dinheiro ou Pix) - 10% de desconto</option>
+    <option value="credito">Cartão de crédito - acréscimo de 5%</option>
+    <option value="duasvezes">Parcelado em 2 vezes - sem desconto</option>
+    <option value="dezvezes">Parcelado em 10 vezes ou mais - acréscimo de 10%</option>
+  </select>
+
+  <br><br>
+
+  <button onclick="calcular()">Calcular</button>
+
+  <h2 id="resultado"></h2>
+
+  <!-- ligação com o JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Motiva.me ✨ — Frases & Metas</title>
+
+  <!-- Importa o arquivo CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="cruz.jpg" width="100" alt="cruz">
+    <h1>Motiva.me — Inspiração & Metas</h1>
+    <img src="" alt="biblia.jpg">
+  </header>
+
+  <main>
+    <!-- Lado esquerdo: Frases e metas -->
+    <section class="card">
+      <div class="frase-area">
+        <h2>Frase do Dia</h2>
+        <div class="frase-box" id="fraseBox">Carregando...</div>
+
+        <div class="controls">
+          <button id="novaFraseBtn">Nova Frase</button>
+          <button id="favoritarBtn" class="secondary">❤️ Favoritar</button>
+          <button id="verFavoritosBtn" class="ghost">Ver Favoritos</button>
+        </div>
+
+        <div id="favoritos" style="display:none" class="favoritos-list card" aria-live="polite"></div>
+      </div>
+
+      <hr style="margin:18px 0; border:none; height:1px; background:#eef6ff">
+
+      <h2>Metas Diárias</h2>
+      <div class="meta-form">
+        <input id="metaInput" placeholder="Adicione uma meta (ex: correr 30 min)" />
+        <button id="addMetaBtn">Adicionar</button>
+      </div>
+
+      <div class="progress"><span id="progressBar" style="width:0%"></span></div>
+      <small id="metaStatus" style="color:#666">0 de 0 concluídas</small>
+
+      <div class="meta-list" id="metaList" style="margin-top:12px"></div>
+
+      <div style="margin-top:12px">
+        <h3>Conquistas</h3>
+        <div class="conquistas" id="badges"></div>
+      </div>
+    </section>
+
+    <!-- Lado direito: explicações e links -->
+    <aside class="card">
+      <h2>Sobre</h2>
+      <p>Esse espaço foi criado para te inspirar todos os dias e ajudar a acompanhar pequenas metas. Tudo é salvo no seu navegador.</p>
+
+      <h2 style="margin-top:14px">Ações rápidas</h2>
+      <button id="limparFavoritos" class="ghost" style="width:100%; margin-bottom:8px">Limpar Favoritos</button>
+      <button id="resetMetas" class="ghost" style="width:100%; margin-bottom:8px">Resetar Metas</button>
+
+      <h2 style="margin-top:14px">Links</h2>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <a href="https://www.vatican.va/" target="_blank">Vaticano</a>
+        <a href="https://www.cnbb.org.br/" target="_blank">CNBB</a>
+        <a href="https://www.catequese.com/" target="_blank">Catequese Online</a>
+      </div>
+
+      <h2 style="margin-top:14px">Dica</h2>
+      <p>Marque metas simples (ex: beber água, caminhar 20 min) — pequenas vitórias desbloqueiam conquistas e motivam o dia.</p>
+    </aside>
+  </main>
+
+  <button id="themeToggle" class="toggle-theme" title="Alternar tema">🌙</button>
+
+  <footer>© 2025 Motiva.me — Feito com carinho ✨</footer>
+
+  <!-- Importa o script -->
+  <script src="script.js"></script>
+</body>
+</html>
