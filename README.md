@@ -37,9 +37,9 @@ realizados em aula com o intuíto de aprender sobre Programação Web com HTML, 
 
 ---
 
-### 🔹 3. Criação de Logos e Flyers
+### 🔹 3. Criação de Logos 
 - Logos minimalistas com as iniciais **Y** e **M**     
-
+-logos minimalistas com as letras **E** ,**L** e **Y**
 ---
 
 ## 🚀 Tecnologias usadas nos projetos
