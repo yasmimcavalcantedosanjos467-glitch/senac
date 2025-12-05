@@ -1,4 +1,4 @@
-# 🌟 Projetos Web da Yasmim — Desenvolvedora Front-End
+# 🌟 Projetos senac
 
 Bem-vindo(a) ao meu repositório!  
 Aqui você encontra vários projetos que desenvolvi com foco em **sites modernos**, **responsivos**, **organizados**, e com **estética limpa**.  
@@ -47,8 +47,8 @@ realizados em aula com o intuíto de aprender sobre Programação Web com HTML, 
 - **CSS** — design, cores, responsividade  
 - **JavaScript** — funções interativas e botões  
 - **GitHub Pages** — para hospedar sites online  
-- **Ferramentas de design** — criação de logos, flyers e capas  
-
+- **Ferramentas de design** — criação de logos.  
+- Navegador Google Chromei (para testes)
 ---
 
 ## 📦 Como usar os projetos
